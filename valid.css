@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    background-image: url("todo1.webp");
+    background-size: cover;
+}
+.box{
+  width:800px;
+  padding:30px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  background:rgb(238, 221, 221);
+  text-align:center;
+
+}
+.box h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #EA40A4;
+padding:14px 10px;
+width:220px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition:0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+width:270px;
+border-color: #EA40A4;
+
+}
+.box input[type="submit"]{
+
+
+    border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #EA40A4;
+padding:14px 35px;
+outline: none;
+color: black;
+border-radius: 24px;
+transition:0.25px;
+cursor:pointer;
+    
+}
+.box input[type="submit"]:hover{
+    background: #EA40A4
+}
+footer {
+    border-top: solid 1px;
+    background: rgba(150, 150, 150, 0.5);
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  footer a{
+    color:black
+  }
